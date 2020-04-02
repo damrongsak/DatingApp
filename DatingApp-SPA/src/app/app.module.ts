@@ -4,11 +4,13 @@ import { HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
+import { AreaChartComponent } from './area-chart/area-chart.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      ValueComponent
+      ValueComponent,
+      AreaChartComponent
    ],
    imports: [
       BrowserModule,
